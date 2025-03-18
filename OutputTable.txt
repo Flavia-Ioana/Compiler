@@ -1,0 +1,70 @@
+Scope: block with parent block
+name: x type: int idtype: var
+Scope: block with parent g
+Scope: g with parent A
+name: aux type: int idtype: var
+name: z type: int idtype: var
+Scope: block with parent f
+Scope: f with parent A
+name: z type: int idtype: var
+Scope: A with parent global
+name: f type: int idtype: function
+ Parameters: 
+  param name: z type: int
+name: g type: int idtype: function
+ Parameters: 
+  param name: z type: int
+name: x type: int idtype: var
+name: y type: int idtype: var
+Scope: block with parent block
+name: x type: int idtype: var
+Scope: block with parent f
+name: flag type: bool idtype: var
+name: x type: int idtype: var
+Scope: f with parent global
+name: x type: int idtype: var
+name: y type: int idtype: var
+name: z type: int idtype: var
+Scope: block with parent bfunc
+Scope: block with parent bfunc
+Scope: bfunc with parent global
+name: b type: bool idtype: var
+name: s type: string idtype: var
+Scope: main with parent global
+Scope: global
+name: A idtype: class
+name: b1 type: bool idtype: var
+name: b2 type: bool idtype: var
+name: bfunc type: int idtype: function
+ Parameters: 
+  param name: b type: bool
+  param name: s type: string
+name: c type: char idtype: var
+name: f type: int idtype: function
+ Parameters: 
+  param name: z type: int
+name: fx type: float idtype: var
+name: ix type: int idtype: var
+name: iy type: int idtype: var
+name: iz type: int idtype: var
+name: ob type: A idtype: var
+name: ob.f type: int idtype: function
+ Parameters: 
+  param name: z type: int
+name: ob.g type: int idtype: function
+ Parameters: 
+  param name: z type: int
+name: ob.x type: int idtype: var
+name: ob.y type: int idtype: var
+name: oba type: A idtype: var
+name: oba.f type: int idtype: function
+ Parameters: 
+  param name: z type: int
+name: oba.g type: int idtype: function
+ Parameters: 
+  param name: z type: int
+name: oba.x type: int idtype: var
+name: oba.y type: int idtype: var
+name: s type: string idtype: var
+name: v type: int idtype: vec
+name: x type: int idtype: var
